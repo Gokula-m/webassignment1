@@ -1,0 +1,35 @@
+
+    background-image: url(./images/background.avif);
+    width : 800px;
+    position: absolute;
+    height: 800px;
+/*.navbar{
+    display:inline-block;
+    background-color: rgb(7, 7, 69);
+    color : whitesmoke;
+    padding :10px;
+    width: 100%;
+    overflow :hidden;
+    text-align: center;
+    text-decoration: none;
+    padding-left: 15px;
+    padding-right: 15px;
+}*/
+.navdiv 
+{
+    display: flex;
+    text-decoration: none;
+    align-items:center;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+li a {
+    color : white;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin-right: 25px;
+    text-decoration: none;
+}
